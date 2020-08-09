@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name KlaveLib)(type Legacy)(uri ${KIPRJMOD}/Libs/KlaveLib/KlaveLib.lib)(options "")(descr ""))
+)
