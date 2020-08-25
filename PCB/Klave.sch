@@ -52,8 +52,6 @@ $EndComp
 Text GLabel 2650 1650 2    50   Input ~ 0
 RESET
 NoConn ~ 2550 1450
-NoConn ~ 2550 1950
-NoConn ~ 2550 1850
 $Comp
 L power:GND #PWR?
 U 1 1 5F45023C
@@ -1571,5 +1569,76 @@ Wire Wire Line
 Connection ~ 9400 3900
 Connection ~ 10100 3900
 Wire Wire Line
-	6500 4700 9850 4700
+	6500 4700 7050 4700
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 5F65CF2A
+P 9900 5750
+F 0 "SW?" H 9900 6117 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 9900 6026 50  0000 C CNN
+F 2 "" H 9750 5910 50  0001 C CNN
+F 3 "~" H 9900 6010 50  0001 C CNN
+	1    9900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F66CA7F
+P 7050 4550
+F 0 "D?" V 7050 4480 50  0000 R CNN
+F 1 "D_Small" V 7005 4480 50  0001 R CNN
+F 2 "" V 7050 4550 50  0001 C CNN
+F 3 "~" V 7050 4550 50  0001 C CNN
+	1    7050 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 4650 7050 4700
+Connection ~ 7050 4700
+Wire Wire Line
+	7050 4700 9850 4700
+Wire Wire Line
+	6650 4350 6600 4350
+Wire Wire Line
+	6600 4350 6600 3350
+Connection ~ 6600 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5F686B26
+P 9250 5750
+F 0 "#PWR?" H 9250 5500 50  0001 C CNN
+F 1 "GND" V 9255 5622 50  0000 R CNN
+F 2 "" H 9250 5750 50  0001 C CNN
+F 3 "" H 9250 5750 50  0001 C CNN
+	1    9250 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 5750 9250 5750
+Text GLabel 2550 1850 2    50   Input ~ 0
+RE_A
+Text GLabel 2550 1950 2    50   Input ~ 0
+RE_B
+Text GLabel 9500 5850 0    50   Input ~ 0
+RE_B
+Text GLabel 9500 5650 0    50   Input ~ 0
+RE_A
+Wire Wire Line
+	9600 5650 9500 5650
+Wire Wire Line
+	9600 5850 9500 5850
+Wire Wire Line
+	10200 5650 10300 5650
+Wire Wire Line
+	10200 5850 10300 5850
+Text Label 10300 5650 0    50   ~ 0
+RE_SW1
+Text Label 10300 5850 0    50   ~ 0
+RE_SW2
+Text Label 6650 4350 0    50   ~ 0
+RE_SW1
+Text Label 6950 4450 2    50   ~ 0
+RE_SW2
+Wire Wire Line
+	7050 4450 6950 4450
 $EndSCHEMATC
