@@ -1320,27 +1320,27 @@ Text GLabel 6500 3050 0    50   Input ~ 0
 row2
 Text GLabel 6500 3600 0    50   Input ~ 0
 row3
-Text GLabel 1150 2550 0    50   Input ~ 0
+Text GLabel 1050 2550 0    50   Input ~ 0
 col0
-Text GLabel 1150 2450 0    50   Input ~ 0
+Text GLabel 1050 2450 0    50   Input ~ 0
 col1
-Text GLabel 1150 2350 0    50   Input ~ 0
+Text GLabel 1050 2350 0    50   Input ~ 0
 col2
-Text GLabel 1150 2250 0    50   Input ~ 0
+Text GLabel 1050 2250 0    50   Input ~ 0
 col3
-Text GLabel 2550 2550 2    50   Input ~ 0
+Text GLabel 2650 2550 2    50   Input ~ 0
 row0
-Text GLabel 2550 2450 2    50   Input ~ 0
+Text GLabel 2650 2450 2    50   Input ~ 0
 row1
-Text GLabel 2550 2350 2    50   Input ~ 0
+Text GLabel 2650 2350 2    50   Input ~ 0
 row2
-Text GLabel 2550 2250 2    50   Input ~ 0
+Text GLabel 2650 2250 2    50   Input ~ 0
 row3
-Text GLabel 2550 2150 2    50   Input ~ 0
+Text GLabel 2650 2150 2    50   Input ~ 0
 row4
-Text GLabel 1150 2150 0    50   Input ~ 0
+Text GLabel 1050 2150 0    50   Input ~ 0
 col4
-Text GLabel 1150 2050 0    50   Input ~ 0
+Text GLabel 1050 2050 0    50   Input ~ 0
 col5
 $Comp
 L Device:D_Small D?
@@ -1505,7 +1505,7 @@ Text GLabel 6500 4150 0    50   Input ~ 0
 row4
 Text GLabel 6500 4700 0    50   Input ~ 0
 row5
-Text GLabel 2550 2050 2    50   Input ~ 0
+Text GLabel 2650 2050 2    50   Input ~ 0
 row5
 $Comp
 L Device:D_Small D?
@@ -1615,9 +1615,9 @@ F 3 "" H 9250 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9600 5750 9250 5750
-Text GLabel 2550 1850 2    50   Input ~ 0
+Text GLabel 2650 1850 2    50   Input ~ 0
 RE_A
-Text GLabel 2550 1950 2    50   Input ~ 0
+Text GLabel 2650 1950 2    50   Input ~ 0
 RE_B
 Text GLabel 9500 5850 0    50   Input ~ 0
 RE_B
@@ -1641,4 +1641,32 @@ Text Label 6950 4450 2    50   ~ 0
 RE_SW2
 Wire Wire Line
 	7050 4450 6950 4450
+Wire Wire Line
+	1050 2050 1150 2050
+Wire Wire Line
+	1150 2150 1050 2150
+Wire Wire Line
+	1050 2250 1150 2250
+Wire Wire Line
+	1050 2350 1150 2350
+Wire Wire Line
+	1150 2450 1050 2450
+Wire Wire Line
+	1050 2550 1150 2550
+Wire Wire Line
+	2550 2550 2650 2550
+Wire Wire Line
+	2650 2450 2550 2450
+Wire Wire Line
+	2550 2350 2650 2350
+Wire Wire Line
+	2650 2250 2550 2250
+Wire Wire Line
+	2550 2150 2650 2150
+Wire Wire Line
+	2650 2050 2550 2050
+Wire Wire Line
+	2550 1950 2650 1950
+Wire Wire Line
+	2650 1850 2550 1850
 $EndSCHEMATC
