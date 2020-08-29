@@ -1,4 +1,4 @@
-(module R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5F4A8EF6)
+(module R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5F4A8FAE)
   (fp_text reference REF** (at 5.08 -2.37) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -49,8 +49,8 @@
   (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 10.16 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-    (at (xyz 0 0 0))
+    (offset (xyz 0 0 -1.75))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 180 180))
   )
 )
