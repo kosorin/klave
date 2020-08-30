@@ -91,7 +91,7 @@
   (pad B thru_hole circle (at -7.5 2.5) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad C thru_hole circle (at -7.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad A thru_hole rect (at -7.5 -2.5) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/Libs/3d/RotaryEncoder_EC11/RotaryEncoder_EC11.wrl
+  (model ${KIPRJMOD}/Libs/KlaveLib.3d/RotaryEncoder_EC11.wrl
     (offset (xyz 0 0 -1.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
