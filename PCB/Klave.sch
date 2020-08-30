@@ -80,34 +80,8 @@ Wire Wire Line
 	1100 1750 1100 1650
 Wire Wire Line
 	1100 1650 1150 1650
-$Comp
-L power:VCC #PWR0104
-U 1 1 5F4571D6
-P 1800 5650
-F 0 "#PWR0104" H 1800 5500 50  0001 C CNN
-F 1 "VCC" V 1815 5778 50  0000 L CNN
-F 2 "" H 1800 5650 50  0001 C CNN
-F 3 "" H 1800 5650 50  0001 C CNN
-	1    1800 5650
-	0    1    1    0   
-$EndComp
-Text GLabel 2600 5450 2    50   Input ~ 0
-SDA
 Text GLabel 1050 1950 0    50   Input ~ 0
 SCL
-Text GLabel 2600 5350 2    50   Input ~ 0
-SCL
-$Comp
-L power:GND #PWR0105
-U 1 1 5F458287
-P 1800 5550
-F 0 "#PWR0105" H 1800 5300 50  0001 C CNN
-F 1 "GND" V 1805 5422 50  0000 R CNN
-F 2 "" H 1800 5550 50  0001 C CNN
-F 3 "" H 1800 5550 50  0001 C CNN
-	1    1800 5550
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2000 6800 2    50   Input ~ 0
 SCL
 Text GLabel 2000 6900 2    50   Input ~ 0
@@ -159,8 +133,6 @@ $EndComp
 Text GLabel 2150 3200 2    50   Input ~ 0
 RESET
 Wire Wire Line
-	1700 5550 1800 5550
-Wire Wire Line
 	2050 3200 2150 3200
 Wire Wire Line
 	1550 3200 1650 3200
@@ -177,8 +149,6 @@ Wire Wire Line
 	2550 1650 2650 1650
 Wire Wire Line
 	2550 1550 2950 1550
-Wire Wire Line
-	1700 5650 1800 5650
 $Comp
 L Device:Jumper_NO_Small JP6
 U 1 1 5F4432FB
@@ -355,34 +325,6 @@ Wire Wire Line
 	1650 3800 1650 3900
 Wire Wire Line
 	2050 3800 2050 3900
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 5F48CDA7
-P 2400 5350
-F 0 "JP3" H 2400 5400 50  0000 C CNN
-F 1 "Jumper_I2C" H 2400 5444 50  0001 C CNN
-F 2 "" H 2400 5350 50  0001 C CNN
-F 3 "~" H 2400 5350 50  0001 C CNN
-	1    2400 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 5F494913
-P 2400 5450
-F 0 "JP4" H 2400 5500 50  0000 C CNN
-F 1 "Jumper_I2C" H 2400 5544 50  0001 C CNN
-F 2 "" H 2400 5450 50  0001 C CNN
-F 3 "~" H 2400 5450 50  0001 C CNN
-	1    2400 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5350 1700 5350
-Wire Wire Line
-	2500 5350 2600 5350
-Wire Wire Line
-	2500 5450 2600 5450
 $Comp
 L Device:Jumper_NO_Small JP2
 U 1 1 5F4B31FD
