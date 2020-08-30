@@ -134,8 +134,6 @@ F 3 "" H 2200 6600 50  0001 C CNN
 	1    2200 6600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1050 1550 0    50   Input ~ 0
-DATA
 $Comp
 L Switch:SW_Push SW0
 U 1 1 5F45BBB3
@@ -173,8 +171,6 @@ Wire Wire Line
 	1050 1850 1150 1850
 Wire Wire Line
 	1050 1950 1150 1950
-Wire Wire Line
-	1050 1550 1150 1550
 Wire Wire Line
 	2550 1750 2950 1750
 Wire Wire Line
@@ -382,35 +378,11 @@ F 3 "~" H 2400 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 5450 2200 5450
-Connection ~ 2200 5450
-Wire Wire Line
-	2200 5450 2300 5450
-Wire Wire Line
 	2300 5350 1700 5350
 Wire Wire Line
 	2500 5350 2600 5350
 Wire Wire Line
 	2500 5450 2600 5450
-Wire Wire Line
-	2200 5550 2200 5450
-Text GLabel 2600 5850 2    50   Input ~ 0
-DATA
-$Comp
-L Device:Jumper_NC_Small JP5
-U 1 1 5F4951D7
-P 2200 5650
-F 0 "JP5" V 2200 5771 50  0000 C CNN
-F 1 "Jumper_Serial" H 2200 5771 50  0001 C CNN
-F 2 "" H 2200 5650 50  0001 C CNN
-F 3 "~" H 2200 5650 50  0001 C CNN
-	1    2200 5650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2200 5750 2200 5850
-Wire Wire Line
-	2200 5850 2600 5850
 $Comp
 L Device:Jumper_NO_Small JP2
 U 1 1 5F4B31FD
