@@ -54,8 +54,8 @@
   (pad 2 thru_hole rect (at 1.8 0) (size 1.2 1.2) (drill 0.4) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -1.8 0) (size 1.2 1.2) (drill 0.4) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl
-    (at (xyz 0 0 0))
+    (offset (xyz 0 0 -1.75))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 180 0 0))
   )
 )
