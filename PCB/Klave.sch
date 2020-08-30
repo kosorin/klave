@@ -24,17 +24,6 @@ F 3 "~" H 1250 6800 50  0001 C CNN
 	1    1250 6800
 	-1   0    0    1   
 $EndComp
-$Comp
-L KlaveLib:TRRS J1
-U 1 1 5F439991
-P 1300 5500
-F 0 "J1" H 1382 5917 50  0000 C CNN
-F 1 "TRRS" H 1382 5826 50  0000 C CNN
-F 2 "" H 1350 5600 50  0001 C CNN
-F 3 "" H 1350 5600 50  0001 C CNN
-	1    1300 5500
-	1    0    0    -1  
-$EndComp
 Text GLabel 1050 1850 0    50   Input ~ 0
 SDA
 NoConn ~ 1150 1450
