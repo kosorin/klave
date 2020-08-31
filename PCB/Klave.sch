@@ -304,9 +304,9 @@ F 3 "~" H 1650 4000 50  0001 C CNN
 	1    1650 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 4500 3    50   Input ~ 0
+Text GLabel 1650 4200 3    50   Input ~ 0
 SDA
-Text GLabel 2050 4500 3    50   Input ~ 0
+Text GLabel 2050 4200 3    50   Input ~ 0
 SCL
 $Comp
 L Device:R_Small R2
@@ -325,34 +325,8 @@ Wire Wire Line
 	1650 3800 1650 3900
 Wire Wire Line
 	2050 3800 2050 3900
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5F4B31FD
-P 2050 4300
-F 0 "JP2" V 2050 4252 50  0000 R CNN
-F 1 "Jumper_Master" V 2005 4252 50  0001 R CNN
-F 2 "" H 2050 4300 50  0001 C CNN
-F 3 "~" H 2050 4300 50  0001 C CNN
-	1    2050 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5F4B5EF6
-P 1650 4300
-F 0 "JP1" V 1650 4252 50  0000 R CNN
-F 1 "Jumper_Master" V 1605 4252 50  0001 R CNN
-F 2 "" H 1650 4300 50  0001 C CNN
-F 3 "~" H 1650 4300 50  0001 C CNN
-	1    1650 4300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2050 4100 2050 4200
-Wire Wire Line
-	2050 4400 2050 4500
-Wire Wire Line
-	1650 4400 1650 4500
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F4BDEF6
