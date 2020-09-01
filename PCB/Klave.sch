@@ -1509,7 +1509,7 @@ P 1700 2200
 F 0 "U1" H 1250 3275 60  0000 C CNN
 F 1 "ProMicro" H 1700 2200 60  0000 C CNN
 F 2 "KlaveLib:Arduino_ProMicro" V 2750 -300 60  0001 C CNN
-F 3 "" V 2750 -300 60  0001 C CNN
+F 3 "~" V 2750 -300 60  0001 C CNN
 	1    1700 2200
 	1    0    0    -1  
 $EndComp
