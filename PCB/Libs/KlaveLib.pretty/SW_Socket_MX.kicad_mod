@@ -89,4 +89,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model ${KIPRJMOD}/Libs/KlaveLib.3d/Keycap_Cherry_MX.step
+    (offset (xyz -9 9 10.75))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
