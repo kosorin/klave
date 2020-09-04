@@ -157,8 +157,8 @@ ENDDEF
 # KlaveLib_ProMicro
 #
 DEF KlaveLib_ProMicro U 0 40 Y Y 1 F N
-F0 "U" -475 1075 60 H V C CNN
-F1 "KlaveLib_ProMicro" 475 -1075 60 H V C CNN
+F0 "U" 0 50 50 H V C CNN
+F1 "KlaveLib_ProMicro" 0 -50 50 H V C CNN
 F2 "" 1050 -2500 60 V I C CNN
 F3 "" 1050 -2500 60 V I C CNN
 DRAW
