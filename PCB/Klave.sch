@@ -1498,14 +1498,6 @@ F 3 "~" H 2325 7050 50  0001 C CNN
 	1    2325 7050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1875 7250 1900 7250
-Wire Wire Line
-	1875 7150 1950 7150
-Wire Wire Line
-	1875 7050 2000 7050
-Wire Wire Line
-	1875 6950 2050 6950
 Text GLabel 1575 6300 0    50   Input ~ 0
 SDA
 $Comp
@@ -1563,31 +1555,11 @@ Wire Wire Line
 Wire Wire Line
 	1875 6600 1900 6600
 Wire Wire Line
-	1900 6600 1900 7250
-Connection ~ 1900 7250
-Wire Wire Line
-	1900 7250 2125 7250
-Wire Wire Line
 	1875 6500 1950 6500
-Wire Wire Line
-	1950 6500 1950 7150
-Connection ~ 1950 7150
-Wire Wire Line
-	1950 7150 2125 7150
 Wire Wire Line
 	1875 6400 2000 6400
 Wire Wire Line
-	2000 6400 2000 7050
-Connection ~ 2000 7050
-Wire Wire Line
-	2000 7050 2125 7050
-Wire Wire Line
 	1875 6300 2050 6300
-Wire Wire Line
-	2050 6300 2050 6950
-Connection ~ 2050 6950
-Wire Wire Line
-	2050 6950 2125 6950
 Wire Wire Line
 	4450 1850 4300 1850
 Wire Wire Line
@@ -1633,4 +1605,32 @@ F 3 "~" H 4200 1850 50  0001 C CNN
 	1    4200 1850
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1875 7250 2050 7250
+Wire Wire Line
+	1875 7150 2000 7150
+Wire Wire Line
+	1875 7050 1950 7050
+Wire Wire Line
+	1875 6950 1900 6950
+Wire Wire Line
+	1900 6600 1900 6950
+Connection ~ 1900 6950
+Wire Wire Line
+	1900 6950 2125 6950
+Wire Wire Line
+	1950 6500 1950 7050
+Connection ~ 1950 7050
+Wire Wire Line
+	1950 7050 2125 7050
+Wire Wire Line
+	2000 6400 2000 7150
+Connection ~ 2000 7150
+Wire Wire Line
+	2000 7150 2125 7150
+Wire Wire Line
+	2050 6300 2050 7250
+Connection ~ 2050 7250
+Wire Wire Line
+	2050 7250 2125 7250
 $EndSCHEMATC
