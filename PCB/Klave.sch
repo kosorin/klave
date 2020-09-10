@@ -1633,4 +1633,70 @@ Wire Wire Line
 Connection ~ 2050 7250
 Wire Wire Line
 	2050 7250 2125 7250
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F5B2965
+P 5750 6600
+F 0 "H1" H 5850 6646 50  0000 L CNN
+F 1 "MountingHole" H 5850 6555 50  0000 L CNN
+F 2 "KlaveLib:MountingHole_4.8mm_4.5mm" H 5750 6600 50  0001 C CNN
+F 3 "~" H 5750 6600 50  0001 C CNN
+	1    5750 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F5B55A1
+P 5750 6800
+F 0 "H2" H 5850 6846 50  0000 L CNN
+F 1 "MountingHole" H 5850 6755 50  0000 L CNN
+F 2 "KlaveLib:MountingHole_4.8mm_4.5mm" H 5750 6800 50  0001 C CNN
+F 3 "~" H 5750 6800 50  0001 C CNN
+	1    5750 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F5B58B2
+P 5750 7000
+F 0 "H3" H 5850 7046 50  0000 L CNN
+F 1 "MountingHole" H 5850 6955 50  0000 L CNN
+F 2 "KlaveLib:MountingHole_4.8mm_4.5mm" H 5750 7000 50  0001 C CNN
+F 3 "~" H 5750 7000 50  0001 C CNN
+	1    5750 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F5B5A17
+P 5750 7200
+F 0 "H4" H 5850 7246 50  0000 L CNN
+F 1 "MountingHole" H 5850 7155 50  0000 L CNN
+F 2 "KlaveLib:MountingHole_4.8mm_4.5mm" H 5750 7200 50  0001 C CNN
+F 3 "~" H 5750 7200 50  0001 C CNN
+	1    5750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F5B5C05
+P 5750 7400
+F 0 "H5" H 5850 7446 50  0000 L CNN
+F 1 "MountingHole" H 5850 7355 50  0000 L CNN
+F 2 "KlaveLib:MountingHole_4.8mm_4.5mm" H 5750 7400 50  0001 C CNN
+F 3 "~" H 5750 7400 50  0001 C CNN
+	1    5750 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5F5B5E1A
+P 5750 7600
+F 0 "H6" H 5850 7646 50  0000 L CNN
+F 1 "MountingHole" H 5850 7555 50  0000 L CNN
+F 2 "KlaveLib:MountingHole_4.8mm_4.5mm" H 5750 7600 50  0001 C CNN
+F 3 "~" H 5750 7600 50  0001 C CNN
+	1    5750 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
