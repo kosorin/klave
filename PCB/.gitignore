@@ -23,6 +23,7 @@ fp-info-cache
 *.net
 
 # Gerber
+*.gbrjob
 *.gbr
 *.drl
 
