@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name KlaveLib)(type KiCad)(uri ${KIPRJMOD}/../PCB/Libs/KlaveLib.pretty)(options "")(descr ""))
+)
