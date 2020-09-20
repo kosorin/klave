@@ -1,0 +1,44 @@
+# Temporary, backup
+*~
+*.000
+*.tmp
+_autosave-*
+
+# Project
+*-save.pro
+*.kicad_prl
+
+# Schematic, symbol
+*.kicad_sch-bak
+*.sch-bak
+*.bak
+*.bck
+
+# PCB, footprint
+*-save.kicad_pcb
+*.kicad_pcb-bak
+fp-info-cache
+
+# Netlist
+*.net
+
+# Gerber
+/Gerber/
+*.gbrjob
+*.gbr
+*.drl
+
+# Position
+*.pos
+
+# Report
+*.rpt
+
+# Autorouter
+*.dsn
+*.ses
+
+# BOM
+*.xml
+*.csv
+*.csv.tmp
