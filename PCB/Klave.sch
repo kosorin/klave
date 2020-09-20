@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Klave Keyboard"
-Date ""
+Date "2020-09-20"
 Rev "1"
 Comp ""
 Comment1 ""
