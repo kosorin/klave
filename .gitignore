@@ -1,0 +1,9 @@
+# Temporary, backup
+*.lck
+_autosave-*
+
+# Project
+*.kicad_prl
+
+# PCB, footprint
+fp-info-cache
