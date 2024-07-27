@@ -1,6 +1,7 @@
 # Temporary, backup
 *.lck
 _autosave-*
+\#auto_saved_files#
 
 # Project
 *.kicad_prl
